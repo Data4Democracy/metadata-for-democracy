@@ -15,4 +15,8 @@ The initial work for this project will be in 4 parts:
 * A service that listens for github changes and updates the dataset.
 * An API endpoint for querying the dataset.
 
+## Technologies
 
+Which technologies are used will be a function of what skills our volunteers bring to the table. The initial plan is to use python and postgreSQL.
+
+## Guiding principles
