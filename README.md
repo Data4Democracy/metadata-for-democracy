@@ -20,3 +20,9 @@ The initial work for this project will be in 4 parts:
 Which technologies are used will be a function of what skills our volunteers bring to the table. The initial plan is to use python and postgreSQL.
 
 ## Guiding principles
+
+In addition to the [goals of Data For Democracy](http://datafordemocracy.org/about.html), this project seeks to adhere to the following principles:
+
+* Write for reuse - While this tool is being built first for Data For Democracy, it should be written with an eye towards being available to any organization that uses some or all of the tools we use to organize our own work.
+
+* No vendor lock-in - Write to run on any platform with thin, modular adapters for specific platforms.
