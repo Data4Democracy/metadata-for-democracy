@@ -13,11 +13,11 @@ services:
       dockerfile: Dockerfile
     image: webhook
     ports:
-     - "8080:8080"
+     - "8079:8079"
   api:
     build:
       context: ./api
       dockerfile: Dockerfile
     image: api
     ports:
-     - "8079:8079"
+     - "8080:8080"
