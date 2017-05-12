@@ -1,0 +1,23 @@
+version: '2'
+services:
+  db:
+    build:
+      context: ./db
+      dockerfile: Dockerfile
+    image: db
+    ports:
+     - "5432:5432"
+  webhook:
+    build:
+      context: ./webhook
+      dockerfile: Dockerfile
+    image: webhook
+    ports:
+     - "8079:8079"
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    image: api
+    ports:
+     - "8080:8080"

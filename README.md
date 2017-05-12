@@ -12,12 +12,26 @@ The initial work for this project will be in 4 parts:
 
 * A datastore for keeping information about the projects.
 * A script for retrieving and storing a snapshot for the project data.
-* A service that listens for github changes and updates the dataset.
+* A web hook that listens for github changes and updates the dataset.
 * An API endpoint for querying the dataset.
 
 ## Technologies
 
 Which technologies are used will be a function of what skills our volunteers bring to the table. The initial plan is to use python and postgreSQL.
+
+## Running the Project
+
+Metadata for Democracy uses docker to run in development. If you don't have docker installed, you can read the installation instructions [here](https://github.com/Data4Democracy/docker-scaffolding).
+
+Once you have docker installed and running, navigate to the root project directory and execute
+
+```docker-compose up```
+
+This will start the database, web hook, and API server.
+
+To run the snapshot script, navigate to the snapshot subdirectory and execute
+
+./take.py
 
 ## Guiding principles
 
