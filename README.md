@@ -35,8 +35,7 @@ To run the snapshot script, navigate to the snapshot subdirectory and execute
 
 ## Coding standards
 
-Eventually, MD4D will be enforcing something close to the [PEP-8 standard](https://www.python.org/dev/peps/pep-0008/) for code consistency 
-While we'd like to acheive style and coding uniformity consistent enough to be tested with [pylint](https://www.pylint.org/)
+Eventually, MD4D will be enforcing something close to the [PEP-8 standard](https://www.python.org/dev/peps/pep-0008/) for code consistency and using [pylint](https://www.pylint.org/) in our toolchain, our current goal is 
 
 ## Guiding principles
 
