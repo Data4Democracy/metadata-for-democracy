@@ -33,6 +33,16 @@ To run the snapshot script, navigate to the snapshot subdirectory and execute
 
 ./take.py
 
+## Coding standards
+
+Eventually, MD4D will be enforcing something close to the [PEP-8 standard](https://www.python.org/dev/peps/pep-0008/) for code consistency and using [pylint](https://www.pylint.org/) in our toolchain, our current goal is to remain as close to "normal-looking" python as we can. For now, anyone reviewing a pull request should check for the following:
+
+* Variable and parameter names are snake_case, not camelCase.
+* Indentation is two spaces, not tabs.
+* All source files end with a single carriage return.
+
+These standards will evolve as the project matures.
+
 ## Guiding principles
 
 In addition to the [goals of Data For Democracy](http://datafordemocracy.org/about.html), this project seeks to adhere to the following principles:
