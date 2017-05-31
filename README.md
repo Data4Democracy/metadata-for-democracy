@@ -33,6 +33,10 @@ To run the snapshot script, navigate to the snapshot subdirectory and execute
 
 ./take.py
 
+## Coding standards
+
+
+
 ## Guiding principles
 
 In addition to the [goals of Data For Democracy](http://datafordemocracy.org/about.html), this project seeks to adhere to the following principles:
