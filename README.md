@@ -31,7 +31,7 @@ This will start the database, web hook, and API server.
 
 ## Accessing services running in containers
 
-In order to avoid conflict with other databases running in development, 
+In order to avoid conflict with other databases running in development, PostgreSQL is exposed on port 5550 on the host machine. The webhook and API are running on ports 8079 and 8080 respectively.
 
 To run the snapshot script, navigate to the snapshot subdirectory and execute
 
