@@ -27,7 +27,11 @@ Once you have docker installed and running, navigate to the root project directo
 
 ```docker-compose up```
 
-This will start the database, web hook, and API server.
+This will start the database, web hook, and API server. 
+
+## Accessing services running in containers
+
+In order to avoid conflict with other databases running in development, 
 
 To run the snapshot script, navigate to the snapshot subdirectory and execute
 
