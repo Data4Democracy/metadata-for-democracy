@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     image: db
     ports:
-     - "5432:5432"
+     - "5550:5432"
   webhook:
     build:
       context: ./webhook
